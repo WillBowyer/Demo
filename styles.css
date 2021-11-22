@@ -1,0 +1,81 @@
+@font-face
+{
+    font-family: myFont;
+    
+    src: url("https://www.w3schools.com/css/sansation_light.woff");
+}
+body
+{
+    background:#FFFF99; 
+    width: 800px;
+    font-family: myFont;
+    padding: 0px 10px 0px 10px;
+    margin: 0px auto;
+}
+
+h1, h3
+{
+    color:red;
+}
+
+a
+{
+    font: italic bold 12pt Arial;
+    color:blue;
+}
+
+a:link
+{
+    color:blue;
+    text-decoration: none;
+}
+
+a:visited
+{
+    color:purple;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color:white;
+    font-weight: normal;
+}
+
+a:active
+{
+    color:red;
+    text-decoration: none;
+}
+
+.intro
+{
+    width:80%;
+    margin:5px auto;
+    background: white;
+    padding: 5px;
+    border:4px black dashed;
+}
+
+.bold
+{
+    font-weight: bold;
+
+}
+
+header, footer, section
+{
+    width: 100%;
+    padding: 5px;
+    border: #551100 solid 4px;
+    margin 25px 0px;
+    background: #FFFFCC;
+    box-sizing: border-box;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    -moz-box-shadow: 5px 5px 5px #888;
+    -webkit-box-shadow: 5px 5px 5px #888;
+    box-shadow: 5px 5px 5px #888;
+}
+
